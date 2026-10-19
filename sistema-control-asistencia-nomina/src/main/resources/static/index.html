@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sistema Control de Asistencia y Nómina</title>
+
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f4f4f4;
+        text-align: center;
+        margin: 0;
+        padding-top: 80px;
+      }
+
+      .contenedor {
+        background: white;
+        width: 700px;
+        max-width: 90%;
+        margin: auto;
+        padding: 30px;
+        border-radius: 10px;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+      }
+
+      h1 {
+        color: #0078d4;
+      }
+
+      p {
+        color: #444;
+      }
+
+      a {
+        display: inline-block;
+        margin: 10px;
+        padding: 10px 15px;
+        background-color: #0078d4;
+        color: white;
+        text-decoration: none;
+        border-radius: 5px;
+      }
+
+      a:hover {
+        background-color: #005ea6;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="contenedor">
+      <h1>Sistema de Control de Asistencia y Nómina</h1>
+
+      <p>Aplicación desarrollada con Spring Boot y Azure SQL Database.</p>
+
+      <p>Estado del sistema: <strong>Operativo</strong></p>
+
+      <a href="/api/health">Estado API</a>
+
+      <a href="/api/health/db">Estado Base de Datos</a>
+    </div>
+  </body>
+</html>
